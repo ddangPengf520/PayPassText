@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB54AC4F1F8DB32600D4BF8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54AC4E1F8DB32600D4BF8E /* main.m */; };
+		FB54AC521F8DB32600D4BF8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54AC511F8DB32600D4BF8E /* AppDelegate.m */; };
+		FB54AC551F8DB32600D4BF8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54AC541F8DB32600D4BF8E /* ViewController.m */; };
+		FB54AC581F8DB32600D4BF8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB54AC561F8DB32600D4BF8E /* Main.storyboard */; };
+		FB54AC5A1F8DB32600D4BF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB54AC591F8DB32600D4BF8E /* Assets.xcassets */; };
+		FB54AC5D1F8DB32600D4BF8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB54AC5B1F8DB32600D4BF8E /* LaunchScreen.storyboard */; };
+		FB54AC681F8DB32600D4BF8E /* AliPayPassDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54AC671F8DB32600D4BF8E /* AliPayPassDemoTests.m */; };
+		FB54AC731F8DB32600D4BF8E /* AliPayPassDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54AC721F8DB32600D4BF8E /* AliPayPassDemoUITests.m */; };
+		FB54AC831F8DB37900D4BF8E /* PayPassTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54AC821F8DB37900D4BF8E /* PayPassTextField.m */; };
+		FB54AC861F8DB3A300D4BF8E /* PayPassView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB54AC851F8DB3A300D4BF8E /* PayPassView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB54AC641F8DB32600D4BF8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB54AC421F8DB32500D4BF8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB54AC491F8DB32600D4BF8E;
+			remoteInfo = AliPayPassDemo;
+		};
+		FB54AC6F1F8DB32600D4BF8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB54AC421F8DB32500D4BF8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB54AC491F8DB32600D4BF8E;
+			remoteInfo = AliPayPassDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB54AC4A1F8DB32600D4BF8E /* AliPayPassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliPayPassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB54AC4E1F8DB32600D4BF8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB54AC501F8DB32600D4BF8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB54AC511F8DB32600D4BF8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB54AC531F8DB32600D4BF8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB54AC541F8DB32600D4BF8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB54AC571F8DB32600D4BF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB54AC591F8DB32600D4BF8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB54AC5C1F8DB32600D4BF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB54AC5E1F8DB32600D4BF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB54AC631F8DB32600D4BF8E /* AliPayPassDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliPayPassDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB54AC671F8DB32600D4BF8E /* AliPayPassDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliPayPassDemoTests.m; sourceTree = "<group>"; };
+		FB54AC691F8DB32600D4BF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB54AC6E1F8DB32600D4BF8E /* AliPayPassDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliPayPassDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB54AC721F8DB32600D4BF8E /* AliPayPassDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliPayPassDemoUITests.m; sourceTree = "<group>"; };
+		FB54AC741F8DB32600D4BF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB54AC811F8DB37900D4BF8E /* PayPassTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPassTextField.h; sourceTree = "<group>"; };
+		FB54AC821F8DB37900D4BF8E /* PayPassTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPassTextField.m; sourceTree = "<group>"; };
+		FB54AC841F8DB3A300D4BF8E /* PayPassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPassView.h; sourceTree = "<group>"; };
+		FB54AC851F8DB3A300D4BF8E /* PayPassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPassView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB54AC471F8DB32600D4BF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54AC601F8DB32600D4BF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54AC6B1F8DB32600D4BF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB54AC411F8DB32500D4BF8E = {
+			isa = PBXGroup;
+			children = (
+				FB54AC4C1F8DB32600D4BF8E /* AliPayPassDemo */,
+				FB54AC661F8DB32600D4BF8E /* AliPayPassDemoTests */,
+				FB54AC711F8DB32600D4BF8E /* AliPayPassDemoUITests */,
+				FB54AC4B1F8DB32600D4BF8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB54AC4B1F8DB32600D4BF8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB54AC4A1F8DB32600D4BF8E /* AliPayPassDemo.app */,
+				FB54AC631F8DB32600D4BF8E /* AliPayPassDemoTests.xctest */,
+				FB54AC6E1F8DB32600D4BF8E /* AliPayPassDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB54AC4C1F8DB32600D4BF8E /* AliPayPassDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB54AC801F8DB35F00D4BF8E /* PayPassView */,
+				FB54AC501F8DB32600D4BF8E /* AppDelegate.h */,
+				FB54AC511F8DB32600D4BF8E /* AppDelegate.m */,
+				FB54AC531F8DB32600D4BF8E /* ViewController.h */,
+				FB54AC541F8DB32600D4BF8E /* ViewController.m */,
+				FB54AC561F8DB32600D4BF8E /* Main.storyboard */,
+				FB54AC591F8DB32600D4BF8E /* Assets.xcassets */,
+				FB54AC5B1F8DB32600D4BF8E /* LaunchScreen.storyboard */,
+				FB54AC5E1F8DB32600D4BF8E /* Info.plist */,
+				FB54AC4D1F8DB32600D4BF8E /* Supporting Files */,
+			);
+			path = AliPayPassDemo;
+			sourceTree = "<group>";
+		};
+		FB54AC4D1F8DB32600D4BF8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB54AC4E1F8DB32600D4BF8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB54AC661F8DB32600D4BF8E /* AliPayPassDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB54AC671F8DB32600D4BF8E /* AliPayPassDemoTests.m */,
+				FB54AC691F8DB32600D4BF8E /* Info.plist */,
+			);
+			path = AliPayPassDemoTests;
+			sourceTree = "<group>";
+		};
+		FB54AC711F8DB32600D4BF8E /* AliPayPassDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB54AC721F8DB32600D4BF8E /* AliPayPassDemoUITests.m */,
+				FB54AC741F8DB32600D4BF8E /* Info.plist */,
+			);
+			path = AliPayPassDemoUITests;
+			sourceTree = "<group>";
+		};
+		FB54AC801F8DB35F00D4BF8E /* PayPassView */ = {
+			isa = PBXGroup;
+			children = (
+				FB54AC811F8DB37900D4BF8E /* PayPassTextField.h */,
+				FB54AC821F8DB37900D4BF8E /* PayPassTextField.m */,
+				FB54AC841F8DB3A300D4BF8E /* PayPassView.h */,
+				FB54AC851F8DB3A300D4BF8E /* PayPassView.m */,
+			);
+			path = PayPassView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB54AC491F8DB32600D4BF8E /* AliPayPassDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB54AC771F8DB32600D4BF8E /* Build configuration list for PBXNativeTarget "AliPayPassDemo" */;
+			buildPhases = (
+				FB54AC461F8DB32600D4BF8E /* Sources */,
+				FB54AC471F8DB32600D4BF8E /* Frameworks */,
+				FB54AC481F8DB32600D4BF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliPayPassDemo;
+			productName = AliPayPassDemo;
+			productReference = FB54AC4A1F8DB32600D4BF8E /* AliPayPassDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB54AC621F8DB32600D4BF8E /* AliPayPassDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB54AC7A1F8DB32600D4BF8E /* Build configuration list for PBXNativeTarget "AliPayPassDemoTests" */;
+			buildPhases = (
+				FB54AC5F1F8DB32600D4BF8E /* Sources */,
+				FB54AC601F8DB32600D4BF8E /* Frameworks */,
+				FB54AC611F8DB32600D4BF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB54AC651F8DB32600D4BF8E /* PBXTargetDependency */,
+			);
+			name = AliPayPassDemoTests;
+			productName = AliPayPassDemoTests;
+			productReference = FB54AC631F8DB32600D4BF8E /* AliPayPassDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB54AC6D1F8DB32600D4BF8E /* AliPayPassDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB54AC7D1F8DB32600D4BF8E /* Build configuration list for PBXNativeTarget "AliPayPassDemoUITests" */;
+			buildPhases = (
+				FB54AC6A1F8DB32600D4BF8E /* Sources */,
+				FB54AC6B1F8DB32600D4BF8E /* Frameworks */,
+				FB54AC6C1F8DB32600D4BF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB54AC701F8DB32600D4BF8E /* PBXTargetDependency */,
+			);
+			name = AliPayPassDemoUITests;
+			productName = AliPayPassDemoUITests;
+			productReference = FB54AC6E1F8DB32600D4BF8E /* AliPayPassDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB54AC421F8DB32500D4BF8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "风外杏林香";
+				TargetAttributes = {
+					FB54AC491F8DB32600D4BF8E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ALTB98N9YR;
+						ProvisioningStyle = Automatic;
+					};
+					FB54AC621F8DB32600D4BF8E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ALTB98N9YR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB54AC491F8DB32600D4BF8E;
+					};
+					FB54AC6D1F8DB32600D4BF8E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ALTB98N9YR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB54AC491F8DB32600D4BF8E;
+					};
+				};
+			};
+			buildConfigurationList = FB54AC451F8DB32500D4BF8E /* Build configuration list for PBXProject "AliPayPassDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB54AC411F8DB32500D4BF8E;
+			productRefGroup = FB54AC4B1F8DB32600D4BF8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB54AC491F8DB32600D4BF8E /* AliPayPassDemo */,
+				FB54AC621F8DB32600D4BF8E /* AliPayPassDemoTests */,
+				FB54AC6D1F8DB32600D4BF8E /* AliPayPassDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB54AC481F8DB32600D4BF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB54AC5D1F8DB32600D4BF8E /* LaunchScreen.storyboard in Resources */,
+				FB54AC5A1F8DB32600D4BF8E /* Assets.xcassets in Resources */,
+				FB54AC581F8DB32600D4BF8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54AC611F8DB32600D4BF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54AC6C1F8DB32600D4BF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB54AC461F8DB32600D4BF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB54AC551F8DB32600D4BF8E /* ViewController.m in Sources */,
+				FB54AC521F8DB32600D4BF8E /* AppDelegate.m in Sources */,
+				FB54AC861F8DB3A300D4BF8E /* PayPassView.m in Sources */,
+				FB54AC4F1F8DB32600D4BF8E /* main.m in Sources */,
+				FB54AC831F8DB37900D4BF8E /* PayPassTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54AC5F1F8DB32600D4BF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB54AC681F8DB32600D4BF8E /* AliPayPassDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54AC6A1F8DB32600D4BF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB54AC731F8DB32600D4BF8E /* AliPayPassDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB54AC651F8DB32600D4BF8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB54AC491F8DB32600D4BF8E /* AliPayPassDemo */;
+			targetProxy = FB54AC641F8DB32600D4BF8E /* PBXContainerItemProxy */;
+		};
+		FB54AC701F8DB32600D4BF8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB54AC491F8DB32600D4BF8E /* AliPayPassDemo */;
+			targetProxy = FB54AC6F1F8DB32600D4BF8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB54AC561F8DB32600D4BF8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB54AC571F8DB32600D4BF8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB54AC5B1F8DB32600D4BF8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB54AC5C1F8DB32600D4BF8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB54AC751F8DB32600D4BF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB54AC761F8DB32600D4BF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB54AC781F8DB32600D4BF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = AliPayPassDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliPayPassDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB54AC791F8DB32600D4BF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = AliPayPassDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliPayPassDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB54AC7B1F8DB32600D4BF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = AliPayPassDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliPayPassDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliPayPassDemo.app/AliPayPassDemo";
+			};
+			name = Debug;
+		};
+		FB54AC7C1F8DB32600D4BF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = AliPayPassDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliPayPassDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliPayPassDemo.app/AliPayPassDemo";
+			};
+			name = Release;
+		};
+		FB54AC7E1F8DB32600D4BF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = AliPayPassDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliPayPassDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AliPayPassDemo;
+			};
+			name = Debug;
+		};
+		FB54AC7F1F8DB32600D4BF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = AliPayPassDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliPayPassDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AliPayPassDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB54AC451F8DB32500D4BF8E /* Build configuration list for PBXProject "AliPayPassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB54AC751F8DB32600D4BF8E /* Debug */,
+				FB54AC761F8DB32600D4BF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB54AC771F8DB32600D4BF8E /* Build configuration list for PBXNativeTarget "AliPayPassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB54AC781F8DB32600D4BF8E /* Debug */,
+				FB54AC791F8DB32600D4BF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB54AC7A1F8DB32600D4BF8E /* Build configuration list for PBXNativeTarget "AliPayPassDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB54AC7B1F8DB32600D4BF8E /* Debug */,
+				FB54AC7C1F8DB32600D4BF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB54AC7D1F8DB32600D4BF8E /* Build configuration list for PBXNativeTarget "AliPayPassDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB54AC7E1F8DB32600D4BF8E /* Debug */,
+				FB54AC7F1F8DB32600D4BF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB54AC421F8DB32500D4BF8E /* Project object */;
+}
